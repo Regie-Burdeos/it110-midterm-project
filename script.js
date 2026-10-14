@@ -1,3 +1,25 @@
+const visualss = [ 
+    {
+        quote: "Life is long",
+        author: "Ms. T"
+    },
+    {
+        quote: "ikaw ang bugtong itik nga nag kapa kapa sa akong dughan",
+        author: "Nina Dane"
+    },
+    {
+        quote: "Life is like a box of chocolates, you never know what you're gonna get.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "To live is to become a Visual",
+        author: "Maerry Mae"
+    }
+];
+
+
+
+
 async function quote(){
     const quotetext = document.getElementById("quotetext");
     const authors = document.getElementById("authors");
@@ -13,10 +35,12 @@ async function quote(){
 
         const data = await response.json();
 
-        const randomIndex = Math.floor(Math.random() * data.quotes.length);
+        const allQuotes = data.quotes.concat(visualss);
 
-        quotetext.innerHTML = " " + data.quotes[randomIndex].quote;
-        authors.innerHTML = "— " + data.quotes[randomIndex].author;
+        const randomIndex = Math.floor(Math.random() * allQuotes.length);
+
+        quotetext.innerHTML = " " + allQuotes[randomIndex].quote;
+        authors.innerHTML = "— " + allQuotes[randomIndex].author;
 
     }catch(error){
         window.alert("Error: " + error.message);
