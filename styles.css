@@ -20,6 +20,15 @@ body {
     gap: 40px;
 }
 
+.quote-pagess{
+    background-image: url("images/morning.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
 header {
     width: 100%;
     display: flex;

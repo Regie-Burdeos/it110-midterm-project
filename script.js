@@ -54,3 +54,10 @@ const newQuotes = document.getElementById("new-quotes");
 
 
 newQuotes.addEventListener("click", quote);
+
+const imagebutton = document.getElementById("changeimage");
+
+imagebutton.addEventListener("click", function(){
+
+    document.querySelector(".quote-pagess").style.backgroundImage = "url('images/evening.jpg')";
+});
