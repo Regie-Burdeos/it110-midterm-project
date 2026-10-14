@@ -4,70 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudentCoders</title>
-
-    <meta name="description" content="student who make a team building a web application using a public API.">
-
+    <meta name="description" content="students who make a team building a web application using a public API.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id ="home">
-
-        <h1>Visual Students</h1>
-        <p>Hello, welcome to the visual's portfolio</p>
-        <p>The teams are </p>
 
 
+<header>
+    <nav class="navbar">
+        <a href="#home" class="nav-brand">The Visuals</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+            <a href="app.html" class="nav-cta">Open Visual Quote</a>
+        </div>
+    </nav>
+</header>
+
+ <main>
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Hi, we are The Visuals</h1>
+            <p>
+                We are three BSIT students creating a web portfolio and interactive application for our midterm project. 
+                This website showcases our skills, collaboration, and creativity using modern HTML, CSS, and JavaScript with public APIs.
+            </p>
+        </div>
 
 
-
-
-        <nav class="navbar">
-            <a href="#home" class="homie">Home</a>
-            <a href="#about" class="homie">About</a>
-            <a href="#projects" class="homie">Project</a>
-            <a href="#contact" class="homie">Contact</a>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a team of passionate students working together to build amazing web applications.</p>
-        
-        <p>
-            <strong>
-                Meet the Team
-            </strong>
-        </p>
-
-        <img src="images/regie.jpg" alt="Regie Burdeos">
-        <h3>Regie Burdeos</h3>
-        <p>I'm Regie Burdeos, a second-year college student with a strong interest in technology and creativity. I value continuous growth, problem-solving, and exploring new ideas to create meaningful and practical digital experiences.</p>
-
-        <h3>Maerjun Riataza</h3>
-        <p>I’m Maerjun Riataza, a second-year college student who values teamwork, responsibility, and attention to detail. I enjoy sharing ideas, working with others, and contributing to projects that turn concepts into useful and practical results.</p>
-
-
-        <img src="images/ninadane.jpg" alt="Nina Dane Barruca">
-        <h3>Nina Dane Barucca</h3>
-        <p>I'm Nina Dane Barucca, a second-year college student who values creativity, adaptability, and personal growth. I strive to approach every task with dedication and an open mind while aiming to contribute positively to every project I work on.</p>
-
+        <div class="home-image">
+            <img src="images/group.jpg" alt="The Visual  Team Photo">
+        </div>
     </section>
 
 
-    <section id="projects">
-        <h2>PROJECT</h2>
-        <p>Our Random Quote Generator is a simple and interactive website that displays random quotes to inspire, motivate, and encourage users. It offers a quick way to discover meaningful words and fresh perspectives with every click.</p>
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>About Us</h2>
+            <p>Meet the team behind the project and our individual contributions.</p>
+        </div>
 
 
-        <p>We call it as "Visual Quote"</p>
+        <div class="team-grid">
+            <article class="team-member">
+                <img src="images/maer.jpg" alt="Maerjun Riataza">
+                <h3>Maerjun Riataza</h3>
+                <p class="role-badge">HTML Structure & Project Management</p>
+                <p class="bio">
+                >I’m Maerjun Riataza, a second-year college student who values teamwork, responsibility, and attention to detail. I enjoy sharing ideas, working with others, and contributing to projects that turn concepts into useful and practical results.</p>   
+            </article>
 
+            <article class="team-member">
+                <img src="images/ninadane.jpg" alt="Nina Dane Barruca">
+                <h3>Nina Dane Barruca</h3>
+                <p class="role-badge">Design & Frontend Development</p>
+                <p class="bio">
+                I'm Nina Dane Barucca, a second-year college student who values creativity, adaptability, and personal growth. I strive to approach every task with dedication and an open mind while aiming to contribute positively to every project I work on.</p>    
+            </article>
+
+            <article class="team-member">
+                <img src="images/regie.jpg" alt="Regie Burdeos">
+                <h3>Regie Burdeos</h3>
+                <p class="role-badge">Backend Development & API Integration</p>
+                <p class="bio">
+                I'm Regie Burdeos, a second-year college student with a strong interest in technology and creativity. I value continuous growth, problem-solving, and exploring new ideas to create meaningful and practical digital experiences.</p>    
+            </article>
+
+        </div>
     </section>
 
-    <section id="contact">
+    
+
+    <section id="projects" class="project-section">
+        <div class="project-card">
+            <h2>Our Project: Visual Quote</h2>
+            <p class="project-tagline">An Interactive Public API Random Quote Generator</p>
+            <p class="project-description">
+                Our Random Quote Generator is a simple and interactive website that displays random quotes to inspire, motivate, and encourage users. It offers a quick way to discover meaningful words and fresh perspectives with every click.</p>
+                <p>We call it as "Visual Quote"
+                </p>
+
+            <div class="project-actions">
+                <a href="app.html" class="btn-primary">Open Visual Quote App &rarr;</a>
+            </div>
+        </div>    
+    </section>
+
+    <section id="contact" class="contact-section">
         <h2>Contact Us</h2>
-        <p>Contact: 09934627790</p>
-        <p>Email: ambot@gmail.com</p>
+        <p>Get in touch with our team for questions or feedback.</p>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 09934627790</p>
+            <p><strong>Email:</strong> ambot@gmail.com</p>
+        </div>
     </section>
+</main>
+
+
+<footer>
+        <p>&copy; 2026 The Visuals. Caraga State University - IT 110 Midterm Project.</p>
+</footer>
 
 
 </body>
