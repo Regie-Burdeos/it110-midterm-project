@@ -44,58 +44,61 @@ const visualss = [
         author: "Anonymous"
     },
      {
-        quote: "",
-        author: ""
+        quote: "You cannot ask the earth to bloom while wishing away the rain",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "Perhaps tears were never a sign of weakness, but a reminder that even strongest hearts are still human",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "Not everything you lose was meant to stay, and not everything you miss was your only chance",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "I hope the world gives you back some of the kindness you have given to others.",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "Somewhere between who you were and who you're becoming with, I hope you learn to be kind to yourself.",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "Time is Silver",
+        author: "Ms. T"
     },
      {
-        quote: "",
-        author: ""
+        quote: "May you find little reasons to smile on days when you have every reason not to.",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "Sabi sa sarili ko wala lang to~~",
+        author: "Ms. T"
     },
      {
-        quote: "",
-        author: ""
+        quote: "Saging lang ang may banana",
+        author: "Ms. T"
     },
      {
-        quote: "",
-        author: ""
+        quote: "Akala mo lang meron, pero wala, wala, wala!",
+        author: "Ms. T"
     },
      {
-        quote: "",
-        author: ""
+        quote: "May the days ahead be gentle with parts of you that are still learning how to heal.",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "You deserve to experience the same warmth you so effortlessly give to others.",
+        author: "Regie Burdeos"
     },
      {
-        quote: "",
-        author: ""
+        quote: "May you always find your way back to the things that make your heart feel at home.",
+        author: "Regie Burdeos"
     },
-    
+    {
+        quote: "There are so many things we take for granted, but not our health.",
+        author: "Maerry Mae"
+    }
 ];
 
 
