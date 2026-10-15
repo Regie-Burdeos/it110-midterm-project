@@ -14,7 +14,16 @@ const visualss = [
     {
         quote: "To live is to become a Visual",
         author: "Maerry Mae"
-    }
+    },
+    {
+        quote: "It's okay when you get lost because it could be the way to find yourself.",
+        author: "Maer"
+    },
+    {
+        quote: "If you have feet, you should keep walking.",
+        author: "Maer"
+    },
+    
 ];
 
 
