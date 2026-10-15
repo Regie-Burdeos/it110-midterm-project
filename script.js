@@ -23,6 +23,78 @@ const visualss = [
         quote: "If you have feet, you should keep walking.",
         author: "Maer"
     },
+    {
+        quote: "Meron din naman palang ganda ang buhay, pwede na mangarap!",
+        author: "Ms. T"
+    },
+    {
+        quote: "Let the pain teach you how to dougie",
+        author: "Nina Dane"
+    },
+     {
+        quote: "And, when you want something, all the universe conspires in helping you to achieve it",
+        author: "Paulo Coelho, the Alchemist"
+    },
+     {
+        quote: "kaya pasensya na~~",
+        author: "Maer"
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
+     {
+        quote: "",
+        author: ""
+    },
     
 ];
 
