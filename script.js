@@ -40,8 +40,8 @@ const visualss = [
         author: "Maer"
     },
      {
-        quote: "",
-        author: ""
+        quote: "And sometimes, against all odds, against all logic, we hope",
+        author: "Anonymous"
     },
      {
         quote: "",
@@ -120,7 +120,7 @@ async function quote(){
 
         const randomIndex = Math.floor(Math.random() * allQuotes.length);
 
-        quotetext.innerHTML = "“ " + allQuotes[randomIndex].quote + "”";
+        quotetext.innerHTML = "“" + allQuotes[randomIndex].quote + "”";
         authors.innerHTML = "— " + allQuotes[randomIndex].author;
 
     }catch(error){
