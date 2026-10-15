@@ -27,7 +27,7 @@ const visualss = [
 ];
 
 
-
+const page = document.querySelector(".quote-pagess");
 
 async function quote(){
     const quotetext = document.getElementById("quotetext");
@@ -48,7 +48,7 @@ async function quote(){
 
         const randomIndex = Math.floor(Math.random() * allQuotes.length);
 
-        quotetext.innerHTML = " " + allQuotes[randomIndex].quote;
+        quotetext.innerHTML = "“ " + allQuotes[randomIndex].quote + "”";
         authors.innerHTML = "— " + allQuotes[randomIndex].author;
 
     }catch(error){
@@ -64,9 +64,17 @@ const newQuotes = document.getElementById("new-quotes");
 
 newQuotes.addEventListener("click", quote);
 
-const imagebutton = document.getElementById("changeimage");
+const day = document.getElementById("changeimage");
+const nightBtn = document.getElementById("changeimages");
 
-imagebutton.addEventListener("click", function(){
+day.addEventListener("click", function(){
+    page.classList.remove("night");
+    day.classList.add("active");
+    nightBtn.classList.remove("active");
+});
 
-    document.querySelector(".quote-pagess").style.backgroundImage = "url('images/evening.jpg')";
+nightBtn.addEventListener("click", function(){
+    page.classList.add("night");
+    nightBtn.classList.add("active");
+    day.classList.remove("active");
 });

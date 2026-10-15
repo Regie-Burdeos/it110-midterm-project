@@ -13,10 +13,14 @@
             <p>small quotes, big comfort.</p>
         </div>
 
-        <button class="theme-btn" id="changeimage">☀</button>
+        <div class="theme-toggle">
+            <button class="theme-btn active" id="changeimage" aria-label="Day mode">☀</button>
+            <button class="theme-btn" id="changeimages" aria-label="Night mode">🌙</button>
+        </div>
     </header>
+
     <main class="quote-card">
-        <button class="heart">♡</button>
+        <button class="heart" aria-label="Like quote">♡</button>
 
         <h2 id="quotetext">“Click to get a Quote^^”</h2>
 
@@ -25,9 +29,9 @@
         <p class="author" id="authors">— </p>
 
         <div class="buttons">
-            <button class="icon-btn">♡</button>
+            <button class="icon-btn" aria-label="Favorite quote">♡</button>
             <button class="new-quote" id="new-quotes">New Quote</button>
-            <button class="icon-btn">♧</button>
+            <button class="icon-btn" aria-label="Copy quote">↪</button>
         </div>
     </main>
 
@@ -35,8 +39,6 @@
         ♡ good quotes for a brighter you ♡
     </footer>
 
-
     <script src="script.js"></script>
-
 </body>
 </html>
