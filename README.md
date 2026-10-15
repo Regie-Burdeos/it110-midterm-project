@@ -1,6 +1,6 @@
 GROUP NAME: The Visuals
 MEMBERS: Regie Burdeos
-        Nina Dane Barucca
+        Princess Nina Dane Barruca
         Maerjun Riataza
 
 
