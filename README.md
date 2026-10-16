@@ -1,14 +1,21 @@
-GROUP NAME: The Visuals
-MEMBERS: Regie Burdeos
-        Princess Nina Dane Barruca
-        Maerjun Riataza
 
+Group Name: The Visuals
+
+Group Members:
+
+- Regie Burdeos
+- Maerjun Riataza
+- Princess Nina Dane Barruca
 
 API USED: dummyJSON Quote API
 ENDPOINT used: https://dummyjson.com/quotes
 Documentation: https://dummyjson.com/
 
-Any Special instructions to run the app
-- open index.html in a web browser
-- make sure to have a reliable internet before using the app. internet was used in this web page to generate a random quote
-- use sun/moon buttons at the top right to switch between day and night backgrounds.
+Live Website: https://regie-burdeos.github.io/it110-midterm-project/
+
+Instructions to Run the App:
+
+1. Open the live website using the link above.
+2. Navigate to the Visual Quote application.
+3. Click the New Quote button to display another quote.
+4. Ensure an internet connection is available to retrieve quotes from the API.
