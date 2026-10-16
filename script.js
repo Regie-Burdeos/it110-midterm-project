@@ -98,6 +98,74 @@ const visualss = [
     {
         quote: "There are so many things we take for granted, but not our health.",
         author: "Maerry Mae"
+    },
+    {
+        quote: "May you find a love that feels like being understood without having to explain every part of yourself.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "I hope you love finds you in a way that makes you grateful you never settked fir being almost loved.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "May the love you give never cost you the person you are.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "May home always be more than a place you return to; may it be a place where your heart can finally rest.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "Family is not only the people who share your beginnings, but also those who make you feel belong.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "May you always find your way back to the things that make your heart feel at home.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "You are allowed to become someone new without being ashamed of who you had to be to survive the old days.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "May you find someone who makes even the most ordinary days feel like something worth remembering.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "I hope you experience a love that doesn't leave you guessing whether you are wanted.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "I hope you become so gentle with yourself that your mistakes no longer feel like a reasons to hate who you are.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "May you find happiness in the life you have while still making room for the life you dream of.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "You are allowed to be proud of the small steps that nobody clapped for.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "I hope you give yourself a permission to enjoy the little things without wondering how long they will last.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "May you never become so accustomed to difficult days that you forget how beautiful an easy one can be.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "You don't have to become the best version of yourself to appreciate the person you are today",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "I hope you learn that a difficult chapter does not make you a difficult person to love.",
+        author: "Regie Burdeos"
+    },
+    {
+        quote: "I hope you find the strength to forgive yourself for the things you can't change.",
+        author: "Regie Burdeos"
     }
 ];
 
